@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="Các kiểu lập trình sự kiện"
+
+        android:textSize="30dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số a: "
+            android:textSize="20dp"
+            android:paddingRight="30dp"/>
+
+        <EditText
+            android:id="@+id/ed_soA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số b: "
+            android:textSize="20dp"
+            android:paddingRight="30dp"/>
+
+        <EditText
+            android:id="@+id/ed_soB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_kq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/tv_tong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#b4b4b4"
+        android:gravity="center"
+        android:text="Tổng 2 số"
+        android:textSize="30dp"
+        app:backgroundTint="#b4b4b4" />
+
+    <Button
+        android:id="@+id/tv_hieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#b4b4b4"
+        android:gravity="center"
+        android:text="Hiệu 2 số "
+        android:textSize="30dp"
+        app:backgroundTint="#b4b4b4" />
+
+    <Button
+        android:id="@+id/tv_tich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#b4b4b4"
+        android:gravity="center"
+        android:text="Tích 2 số "
+        android:textSize="30dp"
+        app:backgroundTint="#b4b4b4" />
+
+    <Button
+        android:id="@+id/tv_thuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#b4b4b4"
+        android:gravity="center"
+        android:text="Thương 2 số"
+        android:textSize="30dp"
+        app:backgroundTint="#b4b4b4" />
+
+    <Button
+        android:id="@+id/tv_uocchung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#b4b4b4"
+        android:gravity="center"
+        android:text="Ước số chung lớn nhất"
+        android:textSize="30dp"
+        app:backgroundTint="#b4b4b4" />
+
+    <Button
+        android:id="@+id/tv_thoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#b4b4b4"
+        android:gravity="center"
+        android:text="Thoát chương trình"
+
+        android:textSize="30dp"
+        app:backgroundTint="#b4b4b4" />
+</LinearLayout>
